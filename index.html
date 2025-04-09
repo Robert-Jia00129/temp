@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robert's Personal Website</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts for clean typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="#home">Robert's Site</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="container">
+      <h1>Robert</h1>
+      <p class="tagline">Student at the University of Minnesota</p>
+      <a href="#contact" class="cta-btn">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-section">
+    <div class="container about-container">
+      <div class="about-image">
+        <!-- Placeholder image -->
+        <img src="https://via.placeholder.com/300" alt="About me image" />
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Robert, a dedicated student at the University of Minnesota. I have a passion for learning and exploring new ideas—ranging from cutting-edge technology to creative projects. I’m excited to share some of my work and experiences with you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Project Item 1 -->
+        <div class="project-item">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1" />
+          <h3>Project One</h3>
+          <p>Short description of project one. This is a placeholder text.</p>
+        </div>
+        <!-- Project Item 2 -->
+        <div class="project-item">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2" />
+          <h3>Project Two</h3>
+          <p>Short description of project two. This is a placeholder text.</p>
+        </div>
+        <!-- Project Item 3 -->
+        <div class="project-item">
+          <img src="https://via.placeholder.com/400x250" alt="Project 3" />
+          <h3>Project Three</h3>
+          <p>Short description of project three. This is a placeholder text.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Link to external JavaScript file -->
+  <script src="main.js"></script>
+</body>
+</html>
